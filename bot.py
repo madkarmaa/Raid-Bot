@@ -1,5 +1,3 @@
-# https://discord.com/api/oauth2/authorize?client_id=941300861785739264&permissions=8&scope=bot
-
 import discord
 from discord.ext import commands
 import asyncio
