@@ -121,9 +121,4 @@ async def nukestop(ctx):
         return
 
 
-@bot.command()
-async def test(ctx):
-    pass
-
-
 bot.run('BOT TOKEN HERE')
