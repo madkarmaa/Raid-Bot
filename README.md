@@ -49,6 +49,8 @@ Check the bot's latency.
 
 Deletes all roles and channels, changes the server name, and creates random channels where it mentions **@everyone**.
 
+Your Discord ID, that you also got asked for when running the script, is used by the bot to make sure that other users can't interact with it.
+
 ### **nukestop**
 
 ( _Example: >nukestop_ )
