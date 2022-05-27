@@ -5,7 +5,8 @@ Just a bad made Discord bot for raids, built in discord.py
 ### ping
 Check the bot's latency
 
-### nuke [your Discord ID] _(Provide your Discord ID after the command)_
+### nuke [your Discord ID]
+_(Provide your Discord ID after the command)_
 Deletes all roles and channels, changes the server name and creates random channels within mentioning @everyone
 
 ### nukestop
