@@ -3,17 +3,17 @@ Just a bad made Discord bot for raids, built in discord.py
 ## Commands
 ### (callable by the prefix ">" or by mentioning the bot)
 ### ping
-_(Example: >ping)_
+(_Example: >ping_)
 
 Check the bot's latency.
 
 ### nuke [your Discord ID]
-_(Example: >nuke 123456789)_
+(_Example: >nuke 123456789_)
 
 Deletes all roles and channels, changes the server name and creates random channels within mentioning **@everyone**.
 
 ### nukestop
-_(Example: >nukestop)_
+(_Example: >nukestop_)
 
 Stops the nuke command.
 ## Important
