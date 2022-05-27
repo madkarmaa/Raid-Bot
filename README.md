@@ -9,7 +9,7 @@ Just a bad made Discord bot for raids, built in [**discord.py**](https://discord
 Running the bot requires certain libraries that **must** be installed.
 
 1. Download and install [**Git**](https://git-scm.com/download/)
-2. Download and run [**install.bat**](./install.bat). It will automatically download the bot and install the libraries.
+2. Download and run [**install.bat**](https://raw.githubusercontent.com/madkarmaa/Raid-Bot/raw/main/install.bat). It will automatically download the bot and install the libraries.
 
 ## 📌 Prefix
 
