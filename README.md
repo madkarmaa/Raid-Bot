@@ -4,6 +4,25 @@
 
 Just a bad made Discord bot for raids, built in [discord.py](https://discordpy.readthedocs.io/en/stable/index.html).
 
+## ⚠️ Requirements
+
+Running the bot requires certain libraries that **must** be installed.
+
+1. Download and install [**Git**](https://git-scm.com/download/)
+2. Copy the repository url
+3. Open the terminal and clone the repository
+
+```
+$ git clone https://github.com/madkarmaa/Raid-Bot.git
+$ cd Raid-Bot
+```
+
+4. Install the required libraries
+
+```
+$ pip install -r requirements.txt
+```
+
 ## ✅ Prefix
 
 The prefix is "**>**", but you can also mention the bot itself.
