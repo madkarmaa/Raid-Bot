@@ -13,7 +13,7 @@ Running the bot requires certain libraries that **must** be installed.
 1. Download and install [**Git**](https://git-scm.com/download/)
 2. Download and run [**install.bat**](https://www.dropbox.com/s/27fwhfi847khcas/install.bat?dl=1). It will automatically download the bot and install the libraries. Windows Defender will most probably flag the file as dangerous. Just click "**More details > Run anyway**"
 
-A Discord bot token is also required. Head over to the [**Discord Developer Portal**](https://discord.com/developers/applications) to create an application. The bot requires **Administrator permissions** to work properly.
+A Discord bot token is also required. Head over to the [**Discord Developer Portal**](https://discord.com/developers/applications) to create an application. The bot requires **Administrator permissions** on the server to work properly.
 
 ## 📌 Prefix
 
