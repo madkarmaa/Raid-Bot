@@ -54,7 +54,3 @@ Deletes all roles and channels, changes the server name, and creates random chan
 ( _Example: >nukestop_ )
 
 Stops the nuke command.
-
-```
-
-```
