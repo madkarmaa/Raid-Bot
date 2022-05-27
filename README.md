@@ -1,4 +1,4 @@
-# Raid-Bot
+# Discord Raid Bot
 Just a bad made Discord bot for raids, built in discord.py
 ## Commands
 ### (callable by the prefix ">" or by mentioning the bot)
