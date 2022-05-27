@@ -31,11 +31,11 @@ $ cd Raid-Bot
 $ pip install -r requirements.txt
 ```
 
-## ✅ Prefix
+## 📌 Prefix
 
 The prefix is "**>**", but you can also mention the bot itself.
 
-## 🎴 Commands
+## 📝 Commands
 
 ### **ping**
 
@@ -56,3 +56,7 @@ Your Discord ID, that you also got asked for when running the script, is used by
 ( _Example: >nukestop_ )
 
 Stops the nuke command.
+
+## 🛑 Disclamier
+
+I am not responsible of any damage caused to any Discord server/user. Raiding violates the [Discord ToS](https://discord.com/terms) and can result in an account ban. Thanks for your attention.
