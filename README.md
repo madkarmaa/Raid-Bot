@@ -8,7 +8,7 @@ Just a bad made Discord bot for raids, built in discord.py
 
 **nukestop**: Stops the nuke command
 ## Important
-Remember to provide your (Discord ID)[] and your (bot's token)[https://discord.com/developers/applications] before executing the script.
+Remember to provide your (Discord ID)[] and your [**bot's token**](https://discord.com/developers/applications) before executing the script.
 ```py
 allowed_users = "YOUR DISCORD ID HERE"
 ```
