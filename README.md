@@ -41,4 +41,4 @@ Stops the nuke command.
 
 ## 🛑 Disclamier
 
-I am not responsible of any damage caused to any Discord server/user. Raiding violates the [Discord ToS](https://discord.com/terms) and can result in an account ban. Thanks for your attention.
+I am not responsible of any damage caused to any Discord server/user. Raiding violates the [**Discord ToS**](https://discord.com/terms) and can result in an account ban. Thanks for your attention.
