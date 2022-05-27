@@ -1,5 +1,5 @@
 # Discord Raid Bot
-Just a bad made Discord bot for raids, built in [discord.py](https://discordpy.readthedocs.io/en/stable/index.html)
+Just a bad made Discord bot for raids, built in [discord.py](https://discordpy.readthedocs.io/en/stable/index.html).
 ## Commands
 ### (callable by the prefix ">" or by mentioning the bot)
 ### ping
