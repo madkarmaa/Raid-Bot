@@ -10,7 +10,8 @@ Running the bot requires certain libraries that **must** be installed.
 
 1. Download and install [**Git**](https://git-scm.com/download/)
 2. Copy the repository url
-![oie_Pcih9noPdbYo](https://user-images.githubusercontent.com/100418457/170733073-9264fd73-8be7-4f5b-a284-dd12fbda65bc.png)
+
+<img align="middle" alt="Tutorial" width="75%" src="https://user-images.githubusercontent.com/100418457/170733073-9264fd73-8be7-4f5b-a284-dd12fbda65bc.png" style="margin: 20px"/>
 
 3. Open the terminal and clone the repository
 
