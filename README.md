@@ -1,27 +1,29 @@
-# Discord Raid Bot
+# 🔱 Discord Raid Bot 🔱
+
+[![Twitter Follow](https://img.shields.io/static/v1?label=Literally&message=coding%20like%20a%20noob&color=blueviolet)](https://www.youtube.com/watch?v=iik25wqIuFo)
+
 Just a bad made Discord bot for raids, built in [discord.py](https://discordpy.readthedocs.io/en/stable/index.html).
-## Commands
-### (callable by the prefix ">" or by mentioning the bot)
-### ping
-(_Example: >ping_)
+
+## ✅ Prefix
+
+The prefix is "**>**", but you can also mention the bot itself.
+
+## 🎴 Commands
+
+### **ping**
+
+( _Example: >ping_ )
 
 Check the bot's latency.
 
-### nuke [your Discord ID]
-(_Example: >nuke 123456789_)
+### **nuke [ _your Discord ID_ ]**
 
-Deletes all roles and channels, changes the server name and creates random channels within mentioning **@everyone**.
+( _Example: >nuke 123456789_ )
 
-### nukestop
-(_Example: >nukestop_)
+Deletes all roles and channels, changes the server name, and creates random channels where it mentions **@everyone**.
+
+### **nukestop**
+
+( _Example: >nukestop_ )
 
 Stops the nuke command.
-## Important
-Remember to provide your [**Discord ID**](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) and your [**bot's token**](https://discord.com/developers/applications) before executing the script.
-```py
-allowed_users = "YOUR DISCORD ID HERE"
-```
-```py
-bot.run('BOT TOKEN HERE')
-```
-Your Discord ID is required to prevent other users to interact with the bot.
