@@ -11,6 +11,7 @@ pip install -r requirements.txt
 call :colorEcho 0a "Requirements successfully installed. Press any key to run the bot"
 echo.
 pause >nul
+cls
 python bot.py
 :colorEcho
 echo off
