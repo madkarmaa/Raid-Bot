@@ -19,6 +19,9 @@ Running the bot requires certain libraries that **must** be installed.
 
 ```
 $ git clone https://github.com/madkarmaa/Raid-Bot.git
+```
+
+```
 $ cd Raid-Bot
 ```
 
@@ -51,3 +54,7 @@ Deletes all roles and channels, changes the server name, and creates random chan
 ( _Example: >nukestop_ )
 
 Stops the nuke command.
+
+```
+
+```
