@@ -20,13 +20,13 @@ print(Fore.CYAN, "    \/_/\/_/\/__/\/_/  \/_/\/__,_ /\/____/  \/_/      `\/__ / 
 if os.path.isfile("./stored.info"):
     print(Fore.YELLOW + "Do you want to run the same bot as the last session?", Fore.RESET)
     confirm = input("(Y/N): ")
-    if confirm.lower() == "y":
+    if confirm.lower() in ["yes", "y", "true"]:
         with open("stored.info", "r") as f:
             content = f.readlines()
             botToken = content[0]
             allowed_users = content[1]
             f.close()
-    elif confirm.lower() == "n":
+    elif confirm.lower() in ["no", "n", "false"]:
         os.remove("./stored.info")
         print(Fore.YELLOW + "Enter your bot token:" + Fore.RESET)
         botToken = input()
