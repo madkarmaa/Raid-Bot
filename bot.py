@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+import os
 import asyncio
 import random
 import string
@@ -16,13 +17,39 @@ print(Fore.BLUE, "  \ \ \ \ \ /\ \L\.\_\ \ \/\ \L\ \/\  __/ \ \ \/     \ \ \_/ \
 print(Fore.BLUE, "   \ \_\ \_\ \__/.\_\ \ \_\ \___,_\ \____\ \ \_\      \ `\___/  \ \_\/\_\ \ \____/")
 print(Fore.CYAN, "    \/_/\/_/\/__/\/_/  \/_/\/__,_ /\/____/  \/_/      `\/__ /    \/_/\/_/  \/___/ \n")
 
-print(Fore.YELLOW + "Enter your bot token:" + Fore.RESET)
-botToken = input()
-print(Fore.YELLOW + "Enter your Discord ID:" + Fore.RESET)
-allowed_users = str(input())
+if os.path.isfile("./stored.info"):
+    print(Fore.YELLOW + "Do you want to run the same bot as the last session?", Fore.RESET)
+    confirm = input("(Y/N): ")
+    if confirm.lower() == "y":
+        with open("stored.info", "r") as f:
+            content = f.readlines()
+            botToken = content[0]
+            allowed_users = content[1]
+            f.close()
+    elif confirm.lower() == "n":
+        os.remove("./stored.info")
+        print(Fore.YELLOW + "Enter your bot token:" + Fore.RESET)
+        botToken = input()
+        print(Fore.YELLOW + "Enter your Discord ID:" + Fore.RESET)
+        allowed_users = str(input())
+        with open("stored.info", "w") as f:
+            f.write(f"{botToken}\n{allowed_users}")
+            f.close()
+    else:
+        print(Fore.RED + "Error")
+        asyncio.sleep(2.0)
+        exit()
+else:
+    print(Fore.YELLOW + "Enter your bot token:" + Fore.RESET)
+    botToken = input()
+    print(Fore.YELLOW + "Enter your Discord ID:" + Fore.RESET)
+    allowed_users = str(input())
+    with open("stored.info", "w") as f:
+        f.write(f"{botToken}\n{allowed_users}")
+        f.close()
+
+
 keepLooking = False
-
-
 bot = commands.Bot(command_prefix=commands.when_mentioned_or(">"))
 
 
