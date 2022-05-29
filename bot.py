@@ -50,7 +50,8 @@ else:
 
 
 keepLooking = False
-bot = commands.Bot(command_prefix=commands.when_mentioned_or(">"))
+bot = commands.Bot(
+    command_prefix=commands.when_mentioned_or(">"), help_command=None)
 
 
 @bot.event
