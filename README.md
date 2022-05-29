@@ -29,7 +29,7 @@ The prefix is "**>**", but you can also mention the bot itself.
 
 ( _Example: >ping_ )
 
-Check the bot's latency.
+Checks the bot's latency.
 
 ### **nuke [ _your Discord ID_ ]**
 
