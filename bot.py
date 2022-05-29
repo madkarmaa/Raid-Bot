@@ -9,13 +9,13 @@ from colorama import Fore
 
 colorama.init()
 
-print(Fore.RED, "  ____                      __                      __  __     _           __     ")
-print(Fore.RED, "/\   _`\             __    /\ \                    /\ \/\ \  /' \        /'__`\   ")
-print(Fore.MAGENTA, "\ \  \L\ \     __   /\_\   \_\ \     __    _ __    \ \ \ \ \/\_, \      /\ \/\ \  ")
-print(Fore.MAGENTA, " \ \  ,  /   /'__`\ \/\ \  /'_` \  /'__`\ /\`'__\   \ \ \ \ \/_/\ \     \ \ \ \ \ ")
-print(Fore.BLUE, "  \ \ \ \ \ /\ \L\.\_\ \ \/\ \L\ \/\  __/ \ \ \/     \ \ \_/ \ \ \ \  __ \ \ \_\ \ ")
-print(Fore.BLUE, "   \ \_\ \_\ \__/.\_\ \ \_\ \___,_\ \____\ \ \_\      \ `\___/  \ \_\/\_\ \ \____/")
-print(Fore.CYAN, "    \/_/\/_/\/__/\/_/  \/_/\/__,_ /\/____/  \/_/      `\/__ /    \/_/\/_/  \/___/ \n")
+print(Fore.RED, "  ____                      __                      __  __     _ ")
+print(Fore.RED, "/\   _`\             __    /\ \                    /\ \/\ \  /' \ ")
+print(Fore.MAGENTA, "\ \  \L\ \     __   /\_\   \_\ \     __    _ __    \ \ \ \ \/\_, \ ")
+print(Fore.MAGENTA, " \ \  ,  /   /'__`\ \/\ \  /'_` \  /'__`\ /\`'__\   \ \ \ \ \/_/\ \ ")
+print(Fore.BLUE, "  \ \ \ \ \ /\ \L\.\_\ \ \/\ \L\ \/\  __/ \ \ \/     \ \ \_/ \ \ \ \ ")
+print(Fore.BLUE, "   \ \_\ \_\ \__/.\_\ \ \_\ \___,_\ \____\ \ \_\      \ `\___/  \ \_\ ")
+print(Fore.CYAN, "    \/_/\/_/\/__/\/_/  \/_/\/__,_ /\/____/  \/_/      `\/__ /    \/_/ \n")
 
 if os.path.isfile("./stored.info"):
     print(Fore.YELLOW + "Do you want to run the same bot as the last session?", Fore.RESET)
