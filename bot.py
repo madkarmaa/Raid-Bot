@@ -58,6 +58,8 @@ async def on_ready():
     await bot.change_presence(activity=discord.Activity(type=discord.ActivityType.watching, name="your mom on OnlyFans"), status=discord.Status.idle)
     print(Fore.GREEN +
           f'Logged in as {bot.user} (Bot ID: {bot.user.id})' + Fore.RESET)
+    print(Fore.YELLOW + "Invite the bot: " + Fore.CYAN +
+          f"https://discord.com/api/oauth2/authorize?client_id={bot.user.id}&permissions=8&scope=bot" + Fore.RESET)
 
 
 @bot.command()
