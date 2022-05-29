@@ -11,7 +11,7 @@ Running the bot requires certain libraries that **must** be installed.
 ### Windows OS installation
 
 1. Download and install [**Git**](https://git-scm.com/download/)
-2. Download and run [**install.bat**](https://www.dropbox.com/s/27fwhfi847khcas/install.bat?dl=1). It will automatically download the bot and install the libraries. Windows Defender will most probably flag the file as dangerous. Just click "**More details > Run anyway**"
+2. Download and run [**install.bat**](https://github.com/madkarmaa/Raid-Bot/releases/latest). It will automatically download the bot and install the libraries. Windows Defender will most probably flag the file as dangerous. Just click "**More details > Run anyway**"
 
 For future bot usages, always run **install.bat**.
 
