@@ -16,6 +16,7 @@ if exist "%~dp0Raid-Bot\bot.py" (
     echo.
     pause >nul
     cls
+    python auto-update.py
     python bot.py
 )
 :colorEcho
