@@ -15,7 +15,7 @@ Running the bot requires certain libraries that **must** be installed.
 
 For future bot usages, always run **install.bat**.
 
-🚨 **IMPORTANT** 🚨: No file must be moved outside or inside the "**Raid-Bot**" folder, as **install.bat** will always check for it in its same directory. If you really need to move those files, make sure that "**Raid-Bot**" and **install.bat** are in the same directory.
+🚨 **IMPORTANT** 🚨: No file must be moved outside or inside the "**Raid-Bot**" folder, as "**install.bat**" will always check for it in its same directory. If you really need to move those files, make sure that "**Raid-Bot**" and "**install.bat**" are in the same directory.
 
 A Discord bot token is also required. Head over to the [**Discord Developer Portal**](https://discord.com/developers/applications) to create an application. The bot requires **Administrator permissions** on the server to work properly.
 
