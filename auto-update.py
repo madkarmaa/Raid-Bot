@@ -24,10 +24,11 @@ else:
         urllib.request.urlretrieve(
             "https://raw.githubusercontent.com/madkarmaa/Raid-Bot/main/bot.py", "bot.py")
         print(Fore.GREEN + "Update successfully downloaded.")
+        time.sleep(2.0)
         exit()
     elif confirm.lower() in ["no", "n", "false"]:
         exit()
     else:
-        print(Fore.RED + "Error")
+        print(Fore.RED + "Error. Loading current version...")
         time.sleep(2.0)
         exit()
