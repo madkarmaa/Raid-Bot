@@ -15,7 +15,7 @@ Running the bot requires certain libraries that **must** be installed.
 
 For future bot usages, always run "**install.bat**".
 
-🚨 **IMPORTANT** 🚨
+## 🚨 IMPORTANT
 
 No file must be moved outside or inside the "**Raid-Bot**" folder, as "**install.bat**" will always check for it in its same directory. If you really need to move those files, make sure that "**Raid-Bot**" and "**install.bat**" are in the same directory.
 
