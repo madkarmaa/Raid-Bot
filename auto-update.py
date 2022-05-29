@@ -1,3 +1,4 @@
+import os
 import requests
 import urllib.request
 import colorama
@@ -5,6 +6,11 @@ from colorama import Fore
 import time
 
 colorama.init()
+
+
+def clearConsole(): return os.system(
+    'cls' if os.name in ('nt', 'dos') else 'clear')
+
 
 link = "https://raw.githubusercontent.com/madkarmaa/Raid-Bot/main/bot.py"
 f = requests.get(link)
@@ -25,10 +31,13 @@ else:
             "https://raw.githubusercontent.com/madkarmaa/Raid-Bot/main/bot.py", "bot.py")
         print(Fore.GREEN + "Update successfully downloaded.")
         time.sleep(2.0)
+        clearConsole()
         exit()
     elif confirm.lower() in ["no", "n", "false"]:
+        clearConsole()
         exit()
     else:
         print(Fore.RED + "Error. Loading current version...")
         time.sleep(2.0)
+        clearConsole()
         exit()
