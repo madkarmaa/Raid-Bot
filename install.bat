@@ -12,6 +12,8 @@ if exist "%~dp0Raid-Bot\bot.py" (
     call :colorEcho 0a "Repository successfully cloned"
     echo.
     cd Raid-Bot
+    del "README.md"
+    del "install.bat"
     pip install -r requirements.txt
     call :colorEcho 0a "Requirements successfully installed. Press any key to run the bot"
     echo.
