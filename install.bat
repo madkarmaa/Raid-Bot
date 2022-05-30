@@ -14,7 +14,7 @@ if exist "%~dp0Raid-Bot\bot.py" (
     cd Raid-Bot
     del "README.md"
     del "install.bat"
-    del "%~dp0Raid-Bot\.git"
+    rmdir /q "%~dp0Raid-Bot\.git"
     pip install -r requirements.txt
     call :colorEcho 0a "Requirements successfully installed. Press any key to run the bot"
     echo.
