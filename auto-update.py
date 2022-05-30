@@ -38,6 +38,8 @@ if onlineResult != originalResult:
         print(Fore.GREEN + "Update successfully downloaded." + Fore.RESET)
         time.sleep(3.0)
         os.system("python auto-update.py")
+        clearConsole()
+        exit()
     elif confirm.lower() in ["no", "n", "false"]:
         clearConsole()
         exit()
@@ -45,6 +47,8 @@ if onlineResult != originalResult:
         print(Fore.RED + "Error. Try again." + Fore.RESET)
         time.sleep(3.0)
         os.system("python auto-update.py")
+        clearConsole()
+        exit()
 if onlineResult2 != originalResult2:
     print(Fore.YELLOW +
           'An update for "auto-update.py" has been found. Do you want to download it?' + Fore.RESET)
@@ -54,6 +58,8 @@ if onlineResult2 != originalResult2:
         print(Fore.GREEN + "Update successfully downloaded." + Fore.RESET)
         time.sleep(3.0)
         os.system("python auto-update.py")
+        clearConsole()
+        exit()
     elif confirm.lower() in ["no", "n", "false"]:
         clearConsole()
         exit()
@@ -61,3 +67,5 @@ if onlineResult2 != originalResult2:
         print(Fore.RED + "Error. Try again." + Fore.RESET)
         time.sleep(3.0)
         os.system("python auto-update.py")
+        clearConsole()
+        exit()
