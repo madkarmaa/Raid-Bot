@@ -35,15 +35,16 @@ if onlineResult != originalResult:
     confirm = input("(Y/N): ")
     if confirm.lower() in ["yes", "y", "true"]:
         urllib.request.urlretrieve(linkBot, "bot.py")
-        print(Fore.GREEN + "Update successfully downloaded.")
+        print(Fore.GREEN + "Update successfully downloaded." + Fore.RESET)
         time.sleep(3.0)
+        os.system("python auto-update.py")
         clearConsole()
         exit()
     elif confirm.lower() in ["no", "n", "false"]:
         clearConsole()
         exit()
     else:
-        print(Fore.RED + "Error. Loading current version...")
+        print(Fore.RED + "Error. Loading current version..." + Fore.RESET)
         time.sleep(3.0)
         clearConsole()
         exit()
@@ -53,15 +54,16 @@ if onlineResult2 != originalResult2:
     confirm = input("(Y/N): ")
     if confirm.lower() in ["yes", "y", "true"]:
         urllib.request.urlretrieve(linkAuto, "auto-update.py")
-        print(Fore.GREEN + "Update successfully downloaded.")
+        print(Fore.GREEN + "Update successfully downloaded." + Fore.RESET)
         time.sleep(3.0)
+        os.system("python auto-update.py")
         clearConsole()
         exit()
     elif confirm.lower() in ["no", "n", "false"]:
         clearConsole()
         exit()
     else:
-        print(Fore.RED + "Error. Loading current version...")
+        print(Fore.RED + "Error. Loading current version..." + Fore.RESET)
         time.sleep(3.0)
         clearConsole()
         exit()
